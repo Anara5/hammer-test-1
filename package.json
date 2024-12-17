@@ -63,12 +63,11 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start --openssl-legacy-provider",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "concurrently \"npm run start\" \"gulp watch\"",
-    "postinstall": "npm install --legacy-peer-deps"
+    "dev": "concurrently \"npm run start\" \"gulp watch\""
   },
   "eslintConfig": {
     "extends": [
