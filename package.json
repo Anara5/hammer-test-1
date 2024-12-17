@@ -2,9 +2,9 @@
   "name": "emilus",
   "version": "2.0.1",
   "private": true,
-  "engine": {
-    "node": ">=10.16.0",
-    "npm": ">=6.9.0"
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
